@@ -1,0 +1,59 @@
+a .btn, .btn-primary {
+    color: brown;
+    font-size: large;
+}
+.card-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+.card{
+margin: auto;
+    max-height: 450px;
+    /* overflow: hidden; */
+    
+}
+.wybierz{
+    text-align: center;
+    padding: 100px;
+    font-size: 5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card img {
+    height: 70%;
+    object-fit: cover;
+    cursor: pointer;
+}
+a {
+    font-style: none;
+    text-decoration: none;
+}
+h5{
+    font-style: none;
+}
+
+body{
+    background-image: url("../backgraound.jpg");
+    background-size: 100% 100%;
+
+    /* background-color: rgb(141, 141, 141); */
+}
+.cover-all{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20%;
+}
+.discover{
+    z-index: -12;
+    overflow: hidden;
+    height: 0px;
+}
+.wygrana{
+    
+}
