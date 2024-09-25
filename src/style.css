@@ -11,6 +11,7 @@ a .btn, .btn-primary {
 margin: auto;
     height: 420px;
     /* overflow: hidden; */
+    margin-bottom: 40px;
     
 }
 .card-body{
