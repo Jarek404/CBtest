@@ -15,7 +15,7 @@
     </div>
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
-        <div class="navbar-brand" href="#">Takietam</div>
+        <div class="branding" href="#">Frostbite Agency</div>
       </div>
     </nav>
     <div class="wybierz">
@@ -26,7 +26,7 @@
         <div class="col">
           
             <div class="card card1" style="width: 18rem;">
-              <img src="reward2.jpeg" class="card-img-top" alt="...">
+              <img src="book_in_ukiyo-e_art_style_trad.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Nagroda 1</h5>
                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
@@ -38,7 +38,7 @@
         <div class="col">
           
             <div class="card winner" style="width: 18rem;">
-              <img src="reward1.jpg" class="card-img-top" alt="...">
+              <img src="honda_jazz_in_ukiyo-e_art_styl.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Nagroda 2</h5>
                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
@@ -51,7 +51,7 @@
         <div class="col">
           
             <div class="card card3" style="width: 18rem;">
-              <img src="jazz.jpeg" class="card-img-top" alt="...">
+              <img src="badass_couple_with_dark_hair_a (2).jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Nagroda 3</h5>
                 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
@@ -72,7 +72,7 @@
       // })
       submitter.addEventListener('click', function(){
         console.log("klikniety");
-        if(inputValue.value =='Matematyka' || inputValue.value =='matematyka'){
+        if(inputValue.value =='x' || inputValue.value =='matematyka'){
           let audio = new Audio("Nyanyanyanyanyanyanya.mp3");
         audio.play();
           console.log('ojacie');
@@ -87,25 +87,25 @@
         winner.addEventListener('click', function(){
           console.log('winnerchicken');
           if(clickcount==0){
-          card1.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="...">';
+          card1.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="..."><div class="card-body"> <h5 class="card-title">Nagroda zablokowana!</h5>';
           winner.innerHTML = '<img src="reward3.jpeg" class="card-img-top" alt="...">              <div class="card-body">                <h5 class="card-title">Przegrałaś XD</h5>';
-          card3.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="...">';
+          card3.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="..."><div class="card-body"> <h5 class="card-title">Nagroda zablokowana!</h5>';
           }
           clickcount++;
         })
         card1.addEventListener('click',function(){
           if(clickcount==0){
-          winner.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="...">';
+          winner.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="..."><div class="card-body"> <h5 class="card-title">Nagroda zablokowana!</h5>';
           card1.innerHTML = '<img src="reward3.jpeg" class="card-img-top" alt="...">              <div class="card-body">                <h5 class="card-title">Przegrałaś XD</h5>';
-          card3.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="...">';
+          card3.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="..."><div class="card-body"> <h5 class="card-title">Nagroda zablokowana!</h5>';
         }
         clickcount++;
         })
         card3.addEventListener('click',function(){
           if(clickcount==0){
-          winner.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="...">';
-          card3.innerHTML = '<img src="rewardplaceholder.jpeg" class="card-img-top" alt="...">              <div class="card-body">                <h5 class="card-title">Gratulacje!</h5>';
-          card1.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="...">';
+          winner.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="..."><div class="card-body">                <h5 class="card-title">Nagroda zablokowana!</h5>';
+          card3.innerHTML = '<img src="dinner.jpeg" class="card-img-top" alt="...">  <div class="card-body">                <h5 class="card-title">Gratulacje! </br> wygrałaś kolację!</h5>';
+          card1.innerHTML = '<img src="locked4.jpeg" class="card-img-top" alt="..."><div class="card-body"> <h5 class="card-title">Nagroda zablokowana!</h5>';
           }
           clickcount++;
         })
