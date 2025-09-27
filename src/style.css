@@ -27,6 +27,9 @@ html,
 body {
     height: 100%;
 }
+#gray{
+    color: #303030;
+}
 .wybierz{
     text-align: center;
     height: 100%;
