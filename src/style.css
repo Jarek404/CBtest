@@ -58,6 +58,13 @@ body{
 
     /* background-color: rgb(141, 141, 141); */
 }
+@media only screen and (max-width: 1000px) {
+  body {
+     background-image: url("../src/img/iphone.png");
+    background-size: 100% 100%;
+
+  }
+}
 .cover-all{
     z-index: 1;
     width: 100%;
